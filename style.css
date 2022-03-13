@@ -1,0 +1,33 @@
+  a{
+    color: red;
+    text-decoration: none;}
+  h1{
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding: 10px;
+    margin: 0;
+  }
+  ol{
+    width: 100px;
+    margin: 0;
+    padding: 10px;
+    padding-left: 20px;
+  }
+  body{
+    margin-left: 0;
+  }
+  #grid{
+    display: grid;
+    grid-template-columns: 130px 1fr;
+  }
+  div{
+    border-left: 1px solid black;
+  }
+  @media(max-width:800px)  {
+    #grid{
+      display: block;
+    }
+    div{
+      border-left: none;
+    }
+  }
