@@ -1,0 +1,86 @@
+﻿<!DOCTYPE HTML>
+<HTML>
+  <HEAD>
+<STYLE>
+    #first{color: green}
+  span{color: blue;}
+ </STYLE>
+  <TITLE>WEBSITE</TITLE>
+<META charset="utf-8">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</HEAD>
+<body>
+  <input type="button" value="night"
+  onclick="document.querySelector('body').style.backgroundColor = 'black';
+  document.querySelector('body').style.color = 'white';" >
+  <input type="button" value="day"
+  onclick="document.querySelector('body').style.backgroundColor = 'white';
+  document.querySelector('body').style.color = 'black';">
+
+<input id="night-day" type="button" value="night" onclick="
+if(document . querySelector('#night-day').value === 'night'){
+  document.querySelector('body').style.backgroundColor = 'black';
+document.querySelector('body').style.color = 'white';
+document . querySelector('#night-day').value = 'day'
+
+var alist = document.querySelectorAll('a');
+var i = 0;
+while(i < alist.length){
+alist[i].style.color = 'tomato';
+  i = i + 1;}
+}else{
+  document.querySelector('body').style.backgroundColor = 'white';
+document.querySelector('body').style.color = 'black';
+document . querySelector('#night-day').value = 'night'
+
+var alist = document.querySelectorAll('a');
+var i = 0;
+while(i < alist.length){
+alist[i].style.color = 'blue';
+i = i + 1;}
+}">
+
+<h1><a href="day-night.html">Html</a></h1>
+<ol>
+<li><a href="1.Html.html">HTML</a></li>
+<li><a href="2.CSS.html">CSS</a></li>
+<li><a href="3.JavaScript.html">JavaScript</a></li>
+<H2><STRONG>code note</STRONG></H2>
+<U>under line</U>
+<BR><BR><BR>line change
+<P>pa<SPAN class="j" id="first">ra</SPAN><SPAN class="j">ra</SPAN>gph</P>
+<IMG width="400" src="spring.jpg">
+<BR><A href="https://www.naver.com/">link</A>
+ <BR>
+   <script>
+   function handmade(self){
+     <input type="button" value="night" onclick="
+     var target = document.querySelector('body')
+     if(self.value === 'night'){
+       target.style.backgroundColor = 'black';
+       target.style.color = 'white';
+     self.value = 'day'
+
+     var alist = document.querySelectorAll('a');
+     var i = 0;
+     while(i < alist.length){
+     alist[i].style.color = 'tomato';
+       i = i + 1;}
+     } else {
+       target.style.backgroundColor = 'white';
+       target.style.color = 'black';
+     self.value = 'night'
+
+     var alist = document.querySelectorAll('a');
+     var i = 0;
+     while(i < alist.length){
+     alist[i].style.color = 'tomato';
+       i = i + 1;}
+     }
+   }
+  <input type="button" value="night" onclick="function.handmade(this)">
+
+   </script>
+
+ </body>
+ </HTML>
